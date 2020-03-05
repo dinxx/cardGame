@@ -62,42 +62,46 @@ public class Game {
       Game game = new Game();
       Deck deck = new Deck();
       while (true){
-         String option;
-         System.out.println("Want to See cards in deck: y/n");
-         option = scan.next();
-         if ("y".equals(option)){
-            deck.print();
-         }else if(!"n".equals(option)){
-            throw new RuntimeException("invalid input use only: y or n");
-         }
-         System.out.println("Want to Shuffle card: y/n");
-         option = scan.next();
-         if ("y".equals(option)){
-            deck.shuffle();
-         }else if(!"n".equals(option)){
-            throw new RuntimeException("invalid input use only: y or n");
-         }
-         Map<Card, Integer> playerCard = game.dealCards(players, deck);
-         game.showPlayerCard(playerCard);
-         System.out.println("Player " + game.gameResult(playerCard) +" has won");
-         game.endGame(deck, playerCard);
-         System.out.println("*****************End Game******************");
-         System.out.println("Want to Modify Player number: y/n");
-         option = scan.next();
-         if (option.equals("y")){
-            System.out.println("Want To add or Remove: +/-");
+         try {
+            String option;
+            System.out.println("Want to See cards in deck: y/n");
             option = scan.next();
-            if("+".equals(option)){
-               System.out.println("Please give number of Player you want to add:");
-               players.addPlayer(scan.nextInt());
-            }else if("-".equals(option)){
-               System.out.println("Please give number of Player you want to remove:");
-               players.removePlayer(scan.nextInt());
-            }else {
-               throw new RuntimeException("invalid input use only: add/remove");
+            if ("y".equals(option)){
+               deck.print();
+            }else if(!"n".equals(option)){
+               throw new RuntimeException("invalid input use only: y or n");
             }
-         }else if (!"n".equals(option)){
-            throw new RuntimeException("invalid input use only: y or n");
+            System.out.println("Want to Shuffle card: y/n");
+            option = scan.next();
+            if ("y".equals(option)){
+               deck.shuffle();
+            }else if(!"n".equals(option)){
+               throw new RuntimeException("invalid input use only: y or n");
+            }
+            Map<Card, Integer> playerCard = game.dealCards(players, deck);
+            game.showPlayerCard(playerCard);
+            System.out.println("Player " + game.gameResult(playerCard) +" has won");
+            game.endGame(deck, playerCard);
+            System.out.println("*****************End Game******************");
+            System.out.println("Want to Modify Player number: y/n");
+            option = scan.next();
+            if (option.equals("y")){
+               System.out.println("Want To add or Remove: +/-");
+               option = scan.next();
+               if("+".equals(option)){
+                  System.out.println("Please give number of Player you want to add:");
+                  players.addPlayer(scan.nextInt());
+               }else if("-".equals(option)){
+                  System.out.println("Please give number of Player you want to remove:");
+                  players.removePlayer(scan.nextInt());
+               }else {
+                  throw new RuntimeException("invalid input use only: add/remove");
+               }
+            }else if (!"n".equals(option)){
+               throw new RuntimeException("invalid input use only: y or n");
+            }
+         } catch (Exception ex){
+            System.out.println(ex);
          }
       }
 

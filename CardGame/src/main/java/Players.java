@@ -23,6 +23,10 @@ public class Players {
     */
    public void addPlayer(int numberOfPlayer){
       this.numberOfPlayer += numberOfPlayer;
+      if (this.numberOfPlayer > 52){
+         this.numberOfPlayer -= numberOfPlayer;
+         throw new RuntimeException("number of players cannot be more than 52");
+      }
    }
 
    /**
@@ -30,5 +34,9 @@ public class Players {
     */
    public  void removePlayer(int numberOfPlayer){
       this.numberOfPlayer -= numberOfPlayer;
+      if (this.numberOfPlayer < 2){
+         this.numberOfPlayer += numberOfPlayer;
+         throw new RuntimeException("number of players cannot be less than 2");
+      }
    }
 }

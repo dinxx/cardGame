@@ -114,7 +114,6 @@ class Deck implements Iterable<Card> {
 
    /**
     * Method to add one or more card
-    *
     * functionality to add more card to deck and it is random.
     *
     */
@@ -136,8 +135,6 @@ class Deck implements Iterable<Card> {
 
    /**
     * Method to remove one or more card.
-    *
-    * functionality to get one or more cards
     */
 
    public Card removeMoreCard(int numberOfCards) {

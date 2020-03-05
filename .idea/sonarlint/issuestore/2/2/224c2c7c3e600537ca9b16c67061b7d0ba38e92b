@@ -1,0 +1,31 @@
+
+{squid:S1192G"_Define a constant instead of duplicating this literal "invalid input use only: y or n" 3 times.(ŠŽÃ‡úÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(²õØÅ
+T
+squid:S106*"9Replace this use of System.out or System.err by a logger.(‚ñÐ×ÿÿÿÿÿ
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ªò¦Ÿ
+T
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¹¤ò®ýÿÿÿÿ
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ðÛžãþÿÿÿÿ
+O
+squid:S106I"9Replace this use of System.out or System.err by a logger.(îÜöÔ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(˜æ¦¬ùÿÿÿÿ
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(ˆÙô–
+T
+squid:S106U"9Replace this use of System.out or System.err by a logger.(„äÎžûÿÿÿÿ
+O
+squid:S106X"9Replace this use of System.out or System.err by a logger.(È¨ß…
+T
+squid:S106["9Replace this use of System.out or System.err by a logger.(ÚÝîšúÿÿÿÿ
+O
+squid:S106^"9Replace this use of System.out or System.err by a logger.(Œ‰Ö«
+csquid:S00112G"FDefine and throw a dedicated exception instead of using a generic one.(ŠŽÃ‡úÿÿÿÿ
+csquid:S00112N"FDefine and throw a dedicated exception instead of using a generic one.(ŠŽÃ‡úÿÿÿÿ
+csquid:S00112a"FDefine and throw a dedicated exception instead of using a generic one.(“¥Å¯üÿÿÿÿ
+csquid:S00112d"FDefine and throw a dedicated exception instead of using a generic one.(ŠŽÃ‡úÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿª¹¿

@@ -1,0 +1,4 @@
+
+psquid:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ิý๗ส
+^squid:S001126"FDefine and throw a dedicated exception instead of using a generic one.(ริ๗ý
+^squid:S00112I"FDefine and throw a dedicated exception instead of using a generic one.(ฝิ—

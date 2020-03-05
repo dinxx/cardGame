@@ -1,0 +1,13 @@
+
+bsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(¢–ƒ¡
+O
+squid:S106O"9Replace this use of System.out or System.err by a logger.(˜¤ò½
+T
+squid:S106S"9Replace this use of System.out or System.err by a logger.(¸Û›üÿÿÿÿ
+T
+squid:S106U"9Replace this use of System.out or System.err by a logger.(êß–ÿÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¾þåýÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™³€Ïøÿÿÿÿ
+:squid:S2119."Save and re-use this "Random".(‹ÛË«ûÿÿÿÿ
+:squid:S2119{"Save and re-use this "Random".(‹ÛË«ûÿÿÿÿ
+Vsquid:S1161m":Add the "@Override" annotation above this method signature(¦³üëûÿÿÿÿ
